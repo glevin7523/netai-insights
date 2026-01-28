@@ -4,7 +4,7 @@ uvicorn[standard]==0.24.0
 sqlalchemy==2.0.23
 
 # Data processing - USE COMPATIBLE VERSIONS
-pandas==2.2.0  # Updated to work with Python 3.13
+pandas==2.2.3  # Updated to work with Python 3.13
 numpy==1.26.4
 
 # ML
