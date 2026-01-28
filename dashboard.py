@@ -9,6 +9,26 @@ import requests
 import json
 from datetime import datetime
 
+# Use try-except for imports to handle missing packages gracefully
+try:
+    import pandas as pd
+    import numpy as np
+    import plotly.express as px
+    import plotly.graph_objects as go
+    import requests
+    import json
+    import os
+    import streamlit as st
+    from datetime import datetime
+except ImportError as e:
+    # Fallback to minimal imports
+    import json
+    import os
+    import streamlit as st
+    from datetime import datetime
+    
+    st.warning(f"Some packages not available: {e}. Running in limited mode.")
+
 # Page configuration
 st.set_page_config(
     page_title="NetAI Insights",
