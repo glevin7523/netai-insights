@@ -14,7 +14,7 @@ Here's the complete README.md file with your details:
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-purple.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**AI-powered network monitoring system inspired by Juniper Mist**
+**AI-powered network monitoring system**
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Available-brightgreen)](https://netai-insights.onrender.com)
 [![API Docs](https://img.shields.io/badge/API_Docs-Interactive-orange)](https://netai-insights.onrender.com/api/docs)
@@ -25,8 +25,6 @@ Here's the complete README.md file with your details:
 ## 📋 Overview
 
 NetAI Insights is a comprehensive AI-driven network analytics platform that simulates, monitors, and analyzes network device logs using modern AI/ML techniques. The system is designed to optimize user experiences and simplify network operations through automated event correlation, root cause identification, and proactive anomaly detection.
-
-**Built specifically for:** MTech (AIDE) – Juniper Mist internship role requirements
 
 ## ✨ Features
 
